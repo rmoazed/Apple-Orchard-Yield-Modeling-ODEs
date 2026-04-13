@@ -1,11 +1,11 @@
-# Apple-Orchard-Yield-Modeling-ODEs
-This project models apple orchard fruit production as influenced by a variety of environmental and operational factors using ordinary differential equations. A paper on the topic is included in the repo.
+# Apple Orchard Yield Modeling ODEs
+This project models apple orchard fruit production as a function of environmental and operational factors using ordinary differential equations. A paper on the topic is included in the repo.
 
 
 ## Overview
 
 
-This project develops a mathematical model to study how apple orchard yield evolves over time, and is based on a system of nonlinear ordinary differential equations. It captures the interaction between fruit production and soil moisture and incorporates real-world factors such as temperature, labor availability, pest pressure, rainfall, and irrigation. The goal is to understand how these factors influence long-term orchard sustainability and fruit yield and to have a tool for forecasting probable fruit yield under impending conditions to influence decision making and expectation of economic outcome. 
+This project develops a mathematical model to study how apple orchard yield evolves over time, and is based on a system of nonlinear ordinary differential equations. It captures the interaction between fruit production and soil moisture and incorporates real-world factors such as temperature, labor availability, pest pressure, rainfall, and irrigation. The goal is to understand how these factors influence long-term orchard sustainability and fruit yield and to provide a tool for forecasting probable fruit yield under impending conditions to influence decision making and expectation of economic outcome. 
 
 
 ## Motivation
@@ -33,7 +33,7 @@ The model tracks two main variables:
 - Soil moisture $M(t)$, representing available water in the system
 
 
-The system is **coupled**, meaning fruit growth depends on soil moisture and soil moisture in the system is reduced my fruit growth (water uptake). Fruit dynamics include a growth term that depends on moisture and temperature, and a loss term that depends on pests, labor shortages, and extreme temperature events. Moisture dynamics include inputs from rainfall and irrigation, and losses from plant uptake, evaporation, and natural drainage. 
+The system is **coupled**, meaning fruit growth depends on soil moisture and soil moisture in the system is reduced by fruit growth (water uptake). Fruit dynamics include a growth term that depends on moisture and temperature, and a loss term that depends on pests, labor shortages, and extreme temperature events. Moisture dynamics include inputs from rainfall and irrigation, and losses from plant uptake, evaporation, and natural drainage. 
 
 
 Overall, the model represents a balance between growth versus loss and input versus consumption.
@@ -98,7 +98,7 @@ Observed Behavior:
 Interpretation:
 
 
-- In agreeance with the positive equilibrium, the orchard is resilient to short-term environmental shocks
+- In agreement with the positive equilibrium, the orchard is resilient to short-term environmental shocks
 
 Graph Representation:
 
@@ -133,7 +133,7 @@ Graph Representation:
 ## Phase Plane Representation
 
 
-Below is a graph of the phase plane, which shows system trajectories and equilibrium behavior. Both trajectories lead back to positive equilibrium.
+Below is a graph of the phase plane, which shows system trajectories and equilibrium behavior. Both trajectories converge to positive equilibrium.
 
 
 ![Phase Plane](figures/phase_plane.png)
