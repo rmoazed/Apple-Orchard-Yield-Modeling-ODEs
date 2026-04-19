@@ -171,7 +171,7 @@ Future work on the project may include and is not limited to:
 
 ## Paper and References
 
-[Read Paper](paper/Apple%20Orchard%20ODE%20Model.pdf)
+[Read Paper](paper/Final_Apple_Orchard_ODE_Model.pdf)
 
 
 The above paper contains full mathematical derivations, equilibrium point stability analysis, and a detailed explanation of results. 
